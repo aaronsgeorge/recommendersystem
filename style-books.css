@@ -1,0 +1,144 @@
+body{
+    text-align: center;
+}
+
+#Book-Title{
+    background-color: #0f0c29;
+    color: white; 
+}
+
+.Listing{
+    padding: 3% 15%;
+}
+
+.head-title{
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Nav-bar */
+
+.navbar-brand{
+    font-family: 'Bangers', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.nav-item{
+    padding-left: 1.5rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: "Montserrat-Thin", sans-serif;
+}
+
+/* Search Bar */
+.SEARCH{
+    padding-left: 24px;
+}
+
+/* Description */
+.home{
+    padding-right: 10%;
+}
+
+.login{
+    padding-right: 10%;
+}
+
+.Bimg{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 25% 25% 25% 25%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 50px 50px 50px rgb(16, 4, 43);
+}
+
+.Desc{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: aliceblue;
+    padding: 43px;
+}
+
+.Book-Des{
+    padding: 3% 15% 10%;
+}
+
+.Book-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 100px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+}
+
+/* media query */
+@media (max-width: 900px) {
+ .Bimg{
+    width: 100%;
+    position: static;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43);   
+ }
+ .Desc{
+    text-align: center;
+ }    
+}
+#pricing h2{
+    padding:2%;
+}
+.row h2,h3,p{
+    color: #eeedf5;
+}
+.row img{
+width: 350px;
+height: 500px;
+}
+.card{
+    background: linear-gradient(to bottom, #302b63, #302b63, #24243e);
+}
+cards {
+    perspective: 500px;
+  }
+  
+  .card {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(to bottom, #302b63, #302b63, #24243e);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+  
+  .card:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+  
+  .card_title {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+  
+  .card:hover .card_title {
+    transform: translateZ(50px);
+  }
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }

@@ -1,0 +1,218 @@
+*body{
+    text-align: center;
+}
+
+/* Title */
+#title{
+    background-color: #0f0c29;
+    color: white; 
+}
+
+.Listing{
+    padding: 3% 15%;
+}
+
+.head-title{
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Nav-bar */
+
+.navbar-brand{
+    font-family: 'Bangers', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.nav-item{
+    padding-left: 1.5rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: "Montserrat-Thin", sans-serif;
+}
+
+/* Search Bar */
+.SEARCH{
+    padding-left: 24px;
+}
+
+
+
+/* Description */
+#Description{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: aliceblue;
+    padding: 1.5rem;
+}
+
+/* Movie */
+
+.Mov-Des{
+    padding: 3% 15% 15%;
+}
+
+.Mov-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 100px;
+}
+
+.Mov-Des, .Mov-h1{
+    text-align: center;
+}
+
+.Cine{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 25% 25% 25% 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+}
+
+.Book-Des{
+    padding: 3% 15% 10%;
+}
+
+.Book-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 100px;
+}
+
+.Book-Des, .Book-h1{
+    text-align: center;
+}
+
+.Book{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 20% 20% 20% 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+}
+
+
+/* Us*/
+.Us{
+    background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+    padding: 1% 0% 5%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.Feedback, .Analytics, .Thank{
+    padding: 3% 15% 10%;
+}
+
+/* Feedback */
+.Feedback img{
+    width: 30%;
+    border-radius: 25% 25% 25% 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43);
+}
+
+.Feedback h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 80px;
+}
+
+
+
+/* Analytics */
+.Analytics img{
+    width: 30%;
+    border-radius: 20% 20% 20% 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+}
+
+.Analytics h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 80px;
+}
+
+/* Thank */
+.Thank img{
+    width: 50%;
+    border-radius: 25% 25% 25% 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+    box-shadow: 20px 20px 20px rgb(16, 4, 43);
+}
+
+.Thank h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 80px;
+}
+
+
+/* footer */
+.footer{    
+    background-color: #0f0c29;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: -10%;
+}
+
+/* Media Query */
+@media (max-width: 900px){
+    .Mov-h1, .Book-h1, .Mov-Des, .Book-Des, .Feedback, .Analytics, .Thank{
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .Cine{
+        width: 100%;
+        position: static;
+        filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+        box-shadow: 20px 20px 20px rgb(16, 4, 43);
+    }
+
+    .Book{
+        width: 100%;
+        position: static;
+        filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+        box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+    }
+
+    .Feedback img{
+        width: 40%;
+        filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+        box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+    }
+
+    .Analytics img{
+        width: 40%;
+        filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+        box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+    }
+    
+    .Thank img{
+        width: 60%;
+        filter: drop-shadow(0 0 0.75rem rgb(41, 19, 94));
+        box-shadow: 20px 20px 20px rgb(16, 4, 43); 
+    }
+}
+
+/* Brand */
+.Brand {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
